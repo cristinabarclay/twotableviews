@@ -15,6 +15,8 @@
 		992EE2EE240E1498006C466C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992EE2EC240E1498006C466C /* LaunchScreen.storyboard */; };
 		992EE2F9240E1498006C466C /* twotableviewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992EE2F8240E1498006C466C /* twotableviewsTests.swift */; };
 		992EE304240E1498006C466C /* twotableviewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992EE303240E1498006C466C /* twotableviewsUITests.swift */; };
+		992EE312240E2703006C466C /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992EE311240E2703006C466C /* Feed.swift */; };
+		992EE31A240E3369006C466C /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992EE319240E3369006C466C /* FeedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		992EE2FF240E1498006C466C /* twotableviewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twotableviewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		992EE303240E1498006C466C /* twotableviewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twotableviewsUITests.swift; sourceTree = "<group>"; };
 		992EE305240E1498006C466C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		992EE311240E2703006C466C /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		992EE319240E3369006C466C /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				992EE2E1240E1494006C466C /* AppDelegate.swift */,
 				992EE2E3240E1494006C466C /* SceneDelegate.swift */,
 				992EE2E5240E1494006C466C /* ViewController.swift */,
+				992EE319240E3369006C466C /* FeedTableViewCell.swift */,
+				992EE311240E2703006C466C /* Feed.swift */,
 				992EE2E7240E1494006C466C /* Main.storyboard */,
 				992EE2EA240E1498006C466C /* Assets.xcassets */,
 				992EE2EC240E1498006C466C /* LaunchScreen.storyboard */,
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				992EE2E6240E1494006C466C /* ViewController.swift in Sources */,
+				992EE312240E2703006C466C /* Feed.swift in Sources */,
 				992EE2E2240E1494006C466C /* AppDelegate.swift in Sources */,
 				992EE2E4240E1494006C466C /* SceneDelegate.swift in Sources */,
+				992EE31A240E3369006C466C /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
